@@ -1,3 +1,4 @@
+package main
 /* escape analysis...
 
 frame / stack mental model
@@ -33,7 +34,6 @@ always use value construction, not address construction
 */
 
 // see https://play.golang.org/p/n9HijcdZ3pT
-package main
 
 // user represents a user in the system
 type user struct {
